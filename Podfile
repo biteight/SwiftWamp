@@ -5,7 +5,7 @@ def pods
   pod 'SwiftyJSON'
   pod 'Starscream'
   pod 'CryptoSwift'
-  pod 'SwiftWebSocket', :git => 'https://github.com/biteight/SwiftWebSocket.git', :commit => 'd65d1c7e8e43bf56cca980b15653c836f2e1a56e'
+  pod 'SwiftWebSocket', :git => 'https://github.com/biteight/SwiftWebSocket.git'
 end
 
 target 'SwiftWamp' do
