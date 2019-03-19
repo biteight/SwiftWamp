@@ -162,6 +162,7 @@
 		93A201A01DAF881700EE366B = {
 			isa = PBXGroup;
 			children = (
+				93A201AE1DAF881700EE366B /* Info.plist */,
 				93A201AC1DAF881700EE366B /* SwiftWamp */,
 				93A201B71DAF881700EE366B /* SwiftWampTests */,
 				93A201AB1DAF881700EE366B /* Products */,
@@ -183,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				93A201AD1DAF881700EE366B /* SwiftWamp.h */,
-				93A201AE1DAF881700EE366B /* Info.plist */,
 				D6FDF985BCF279098BF5F23C /* Auth */,
 				D6FDFFA50B37248F77B80787 /* Serialization */,
 				D6FDFB49C04CEFBF39B83B54 /* Messages */,
@@ -747,7 +747,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftWamp/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -768,7 +768,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftWamp/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
