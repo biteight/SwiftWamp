@@ -223,6 +223,7 @@ open class SwampSession: SwampTransportDelegate {
     */
     final public func disconnect(_ reason: String = "wamp.error.close_realm") {
         if self.isConnected() {
+            self.sessionId = nil
             self.sendMessage(GoodbyeSwampMessage(details: [:], reason: reason))
         }
     }
