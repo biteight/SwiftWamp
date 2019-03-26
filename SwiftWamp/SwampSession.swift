@@ -437,6 +437,7 @@ open class SwampSession: SwampTransportDelegate {
     // MARK: SwampTransportDelegate
 
     open func swampTransportDidDisconnect(_ error: NSError?, reason: String?) {
+        self.sessionId = nil
         if reason != nil {
             self.delegate?.swampSessionEnded(reason!)
         } else if error != nil {
