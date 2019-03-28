@@ -18,7 +18,7 @@ open class SwiftWebSocketTransport: SwampTransport {
     }
 
     open var delegate: SwampTransportDelegate?
-    private let socket: SwiftWebSocket.WebSocket
+    public let socket: SwiftWebSocket.WebSocket
     private var wsEndPoint: String
     let mode: WebsocketMode
 
