@@ -6,8 +6,8 @@ def pods
   pod 'SwiftyJSON', '~> 5.0.0'
   pod 'Starscream', '~> 3.1.0'
   pod 'CryptoSwift', '~> 1.0.0'
-  pod 'SwiftWebSocket', '~> 2.7.0'
-
+  pod 'SwiftWebSocket', :git => 'https://github.com/tidwall/SwiftWebSocket.git', :tag => 'v2.8.0'
+  
 end
 
 target 'SwiftWamp' do
